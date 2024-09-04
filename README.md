@@ -47,7 +47,7 @@ properties:
 
 |            Software             |                           Website                            |                         Open-Source                         |                               Published                                                                                        |                                    Documentation                                    |            Free             |
 |:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:---------------------------:|
-|     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1145/2110363.2110464-green.svg)](https://doi.org/10.1145/2110363.2110464)          |                                         :x:                                         |     :white_check_mark:      |
+|     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |  ✅:[:link:](https://github.com/bwallace/abstrackr-web) | [![DOI](https://img.shields.io/badge/DOI-10.1145/2110363.2110464-green.svg)](https://doi.org/10.1145/2110363.2110464)          |                                         :x:                                         |     :white_check_mark:      |
 |      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |  :white_check_mark:[:link:](https://github.com/asreview/)   | [![DOI](https://img.shields.io/badge/DOI-10.1038/s42256--020--00287--7-green.svg)](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |     :white_check_mark:      |
 |       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1111/cobi.13117-green.svg)](https://doi.org/10.1111/cobi.13117)                    | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |     :white_check_mark:      |
 |  [DistillerSR](#distillersr)    | [:link:](https://www.evidencepartners.com/) | :x: | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.vhri.2020.07.479-green.svg)](https://doi.org/10.1016/j.vhri.2020.07.479)| :white_check_mark:[:link:](https://www.evidencepartners.com/resources) | :x:|
@@ -106,7 +106,7 @@ software, including:
 
 |                    Software                    |             Input data format             |                Partly labeled                 |     Output data format      |     Labeling decisions      |         Re-Import-1         |         Re-Import-2         |
 |:----------------------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
-|            [Abstrackr](#abstrackr)             |         RIS, TAB, TXT<sup>1</sup>         |                      :x:                      |        CSV, XML, RIS        |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|            [Abstrackr](#abstrackr)             |         RIS, TAB, TXT<sup>1</sup>, XML        |                      :x:                      |        CSV, XML, RIS        |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 |             [ASReview](#asreview)              | RIS, TSV, CSV, XLSX, TAB, `+`<sup>2</sup> |     :white_check_mark:(S)`+`<sup>2</sup>      |  RIS, TSV, CSV, XLSX, TAB   |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
 |              [Colandr](#colandr)               |               RIS, BIB, TXT               |             :white_check_mark:(M)             |             CSV             |     :white_check_mark:      |             :x:             |             :x:             |
 |          [DistillerSR](#distillersr)           |            ENLX, RIS, CSV, ZIP            |             :white_check_mark:(M)             |    RIS, CSV, XLSX, Word     | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
@@ -308,9 +308,9 @@ This section briefly describes the software in alphabetical order.
 
 ## [Abstrackr](https://github.com/bwallace/abstrackr-web)
 
-Abstrackr is a collaborative (i.e., multiple reviewers can simultaneously
+Abstrackr is a tool developed at the Tufts Evidence-based Practice Center. It is a collaborative (i.e., multiple reviewers can simultaneously
 screen citations for a review), web-based annotation tool for the citation
-screening task.
+screening task of systematic reviews. The tool provides an interface to machine learning methods.
 
 ## [ASReview](www.asreview.nl)
 
